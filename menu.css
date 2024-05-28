@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+section{
+    height: 300px;
+    width: 300px ;
+    background-color: rgb(35, 215, 35);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+div{
+    height: 10px;
+    width: 150px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin: 10px;
+
+
+}

@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image:url(./Images/nick-fewings-Tpsaue6Y9OA-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+nav{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    background-color: rgba(255, 255, 255,0.8);
+    /* background-color: white; */
+}
+.logo{
+    height: 100px;
+    width: 20%;
+    /* border: 1px solid; */
+}
+nav>div>img{
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+ul{
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 500;
+    margin-top: 40px;
+    color:rgb(71, 2, 120);
+    font-weight: 600;
+}
+.list{
+    height: 100px;
+    width: 60%;
+    /* border: 1px solid;  */
+    
+}
+li{
+    display: flex;
+    list-style-type: none;
+    
+
+}
+.languages{
+    height: 100px;
+    width: 20%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.languages>i{
+    font-size: 30px;
+}
+.main-content{
+    height: 500px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.main-content>div>h1{
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+
+}
+.main-content>div>p{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.btn{
+    background-color: purple;
+    height: 55px;
+    width: 140px;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    /* font-weight: 600;     */
+    font-size: 18px;
+}
+
+.footer{
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+.footer>div{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid; */
+    display: flex;
+    text-align: start;
+    justify-content:center;
+    margin-left: 20px;
+}
+.btn-block{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    
+}
+.btn-block>p{
+    font-weight: 600;
+}
+.btn2{
+    height: 40px;
+    width: 120px;
+    background-color: rgb(56, 166, 235);
+    border: none;
+    margin-left: 20px;
+    color: #fff;
+ }
+ #cross{
+    margin-left: 50px;
+ }

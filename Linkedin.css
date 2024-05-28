@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0077B5;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 28px;
+}
+label{
+    color: rgb(161, 156, 150);
+}
+
+.linkedlogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.words{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+.linkbody{
+    background-color: azure;
+    height: 500px;
+    width: 400px;
+    padding: 10px;
+    padding-left: 20px;
+
+}
+.btn{
+    text-align: center;
+    background-color:#0077B5;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    height: 30px;
+    width: 350px;
+    border-radius: 5px;
+}
+.btn1{
+
+    background-color: #1f5ce0;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    height: 30px;
+    width: 350px;
+    border-radius: 5px;
+    display: flex;
+    align-items:center;
+    justify-content:first baseline;
+    
+}
+#logo{
+    font-size: 32px;
+
+}
+.con{
+    margin-left: 90px;
+}
+
+.signin{
+    text-align: center;
+    text-decoration:none;
+    outline: none;
+}
+.sign{
+    outline: none;
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 15px;
+   
+}
+.or{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    text-align: right;
+}

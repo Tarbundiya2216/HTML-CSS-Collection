@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css-Mock</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: sans-serif;
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    font-weight: 700;
+    background-color: black;
+    /* align-items: center;
+    justify-content: space-between; */
+   
+}
+.logo-block{
+    height: 50px;
+    width: 50%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: rgb(11, 255, 190);
+    font-size: 25px;
+    margin-left: 30px;
+
+}
+.option-block{
+    height: 50px;
+    width: 35%;
+    
+    /* border:1px solid; */
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+    
+}
+ul{
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    margin-top: 15px;
+    color: #fff;
+    
+    
+}
+.last-block{
+
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(11, 255, 190);
+    margin-left: 45px;
+
+}
+
+.main-block{
+    height: 90%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.main-block>div>h1{
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.main-block>div>p{
+    font-size: 21px;
+    text-align: center;
+
+}
+button{
+    text-transform: capitalize;
+    background-color: rgb(8, 255, 214);
+    height: 40px;
+    width: 150px;
+    border-radius: 7px;
+    margin-left: 270px;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 2s ease;
+
+}
+button:hover{
+    height: 50px;
+    width: 160px;
+    background-color: rgb(0, 255, 123);
+    font-size: 17px;
+    
+}
+
+    </style>
+</head>
+<body>
+    <section class="nav">
+        <div class="logo-block">
+            <b>KNIGHT</b>
+        </div>
+        <div class="option-block">
+            <ul >
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>FAQ</li>
+                <li>Blog</li>
+            </ul>
+        </div>
+        <div class="last-block">
+            <p>Try Generator</p>
+        </div>
+    </section>
+    <section class="main-block">
+        <div>
+        <h1>Quickly built landing pages <br> with knight</h1><br><br>
+        <p>Knight is a platform that helps freelancers and companies build beautiful <br> landing pages in minutes. Sign up for free.</p><br>
+        <button>
+            Get Started now
+        </button>
+    </section>
+</div>
+</body>
+</html>
